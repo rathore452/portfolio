@@ -1,0 +1,37 @@
+*{
+	margin: 0px;
+}
+body{
+	background-color:black;
+	color:white;
+}
+header{
+	display:flex;
+	justify-content:space-between;
+	color:green;
+	align-items:center;  
+}
+#logolink{
+	display: flex;
+	align-items:center; 
+	margin: 10px;
+}
+#logolink h1{
+	padding-right: 10px;
+	color: white;
+	padding-right: 30px;
+
+}
+a{  transition: all 1s;
+	color:white;
+	padding-right: 30px;
+    text-decoration: none;
+	margin-right: 10px;
+	font-size :20px;
+	 padding-left: 30px;
+}
+a:hover{
+	color:green;
+	background-color:white;
+	border-radius:50px; 
+}

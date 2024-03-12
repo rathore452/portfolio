@@ -8,7 +8,7 @@ header{
  margin-top:10px; 
 }
 a{
-	padding-right: 30px;
+	padding: 10px;
 	text-decoration: none;
   margin-top:10px;
   color:black;
@@ -27,13 +27,13 @@ section{
 #main{
 justify-content: space-around;
 display: flex;
-margin-right:2px; 
-text-align: left;
+margin:30px; 
+
 }
 button{
 	align-items: center;
-	background-color: blue;
-	color:white;
+	background-color: orange;
+	color: black;
 }
 .pp{
  border-width:2px;
@@ -43,4 +43,25 @@ button{
  border-right: none;
  border-left:none;
  border-bottom:none;
+}
+.icon{
+	display: flex;
+    margin: 10px;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+#logolink a{
+	color: black;
+    text-decoration: none;
+ margin: 10px;
+ padding: 10px;
+ transition: all 1s;
+}
+a:hover{
+    color: black;
+    background-color: blue;
+    border-radius: 50%;
+}
+.active{
+    border-bottom: solid brown;
 }

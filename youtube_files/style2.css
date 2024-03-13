@@ -1,0 +1,106 @@
+header{
+	display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+
+}
+#logo{
+	display: flex;
+	align-items: center;
+}
+#img{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+#bt{
+	display: flex;
+	
+ width:470px;
+ height:30px;
+ border-radius:50px 0px 0px 50px;
+	}
+	button{
+		border-radius: 0px 50px 50px 0px;
+		height: 30px;
+
+	}
+	#pp{
+		padding-right: 20px;
+		display: flex;
+		align-items: center;
+	} 
+  .px-2{
+padding: 0px 20px;
+font-size: 16pt;
+text-decoration:none; 
+
+}
+#home{
+	display: flex;
+	align-items: center;
+
+}
+aside{
+	
+	padding-left:10px;
+	align-items: center;
+	width:300px;
+	height: 700px; 
+}
+hr{
+	width:250px;
+	margin:0;
+}
+#his{
+	display:flex;
+	align-items: center;
+}
+#short  {
+	display: flex;
+	align-items: cneter;
+}
+#Watch{
+	display: flex;
+	align-items: center;
+}
+#sub{
+	display: flex;
+	align-items: center;
+
+}
+#main{
+	width:200px;
+	height: 600px;
+	overflow:auto;
+
+	padding-top:20px; 
+}
+main{
+	display: flex;
+
+}
+span{
+	padding:3px 4px;
+	background:grey;
+	color:white;
+	border-radius: 2px; 
+}
+#all{
+	width:100%;
+}
+#harsh{
+	justify-content:space-between; 
+	
+}
+#avdhi{
+
+	margin-top:15px;
+	display: flex;
+}
+#hr{
+	display: flex;
+}
